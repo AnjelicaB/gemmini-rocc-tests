@@ -5,7 +5,7 @@
 #include <limits.h>
 
 #define XCUSTOM_ACC 3
-#define DIM 16
+#define DIM 8
 #define ADDR_LEN 32
 #define BANK_NUM 4
 #define BANK_ROWS 4096
@@ -78,6 +78,7 @@ typedef uint32_t acc_scale_t_bits;
 #define ACC_SCALE_SIG_BITS 24
 
 #define ACC_READ_SMALL_WIDTH
+#define ACC_READ_FULL_WIDTH
 
 #define HAS_FIRST_LAYER_OPTIMIZATIONS
 
